@@ -1,0 +1,39 @@
+.icon-align {
+    height: 5rem;
+}
+
+.div_header {
+    box-shadow: 0 2px rgba(0, 0, 0, .04);
+    /* margin: 0px 140px; */
+    /* padding: 20px 20px; */
+}
+
+
+.aap-header {
+    background-color: #282c34;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+  
+.sticky-header {
+    
+    position: sticky;
+    background-color: white;
+    /* border-bottom: 0rem; */
+    top: 0;
+    z-index: 1;
+}
+
+.mrg-2r {
+    margin-left: 2rem;
+}
+
+.mrg-2l {
+    margin-right: 2rem;
+    font-weight: 700;
+}

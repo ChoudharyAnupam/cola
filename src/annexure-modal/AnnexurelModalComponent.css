@@ -1,0 +1,19 @@
+.annexure-modal-body {
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto;
+    padding-right: 15px; /* Adjust to ensure content is not cut off */
+  }
+  
+  .annexure-modal-body::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* Optional: Hide scrollbar */
+  }
+  
+  .annexure-modal-body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .annexure-modal-body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }

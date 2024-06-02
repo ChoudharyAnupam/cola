@@ -1,0 +1,35 @@
+.floating-label-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    height: 3.6rem;
+    border-radius: 0.4rem;
+}
+
+.floating-label {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+    opacity: 0.6;
+    
+}
+
+.floating-label.floating {
+    top: 0.3rem;
+    font-size: 0.75rem;
+    opacity: 1;
+}
+
+.dropdown-top {
+    top: 1.3rem;
+    
+}
+
+#dropdown-year-selector {
+    background: none;
+    color: black;
+    border: none;
+    margin-left: 0.8rem;
+}

@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+// import { useState } from 'react';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import LoginComponent from './login/LoginComponent';
+import HeaderComponent from './header/HeaderComponent';
+import HomeComponent from './home/HomeComponent';
+import KeyConsiderationComponents from './key-considerations/KeyConsiderationsComponent';
+import PreviewComponent from './preview/PreviewComponent';
+
 function App() {
+  // const logo = require('../images/coke_hd.png');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<LoginComponent/>}>
+          </Route>
+          <Route path='/home' element={<HomeComponent/>} />
+          <Route path='/key-consideration' element={<KeyConsiderationComponents/>} />
+          <Route path='/preview' element={<PreviewComponent/>} />
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }

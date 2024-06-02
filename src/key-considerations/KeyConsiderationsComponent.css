@@ -1,0 +1,17 @@
+
+.card-key {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    color: #444343;
+    height: 6rem;
+    /* height: 100px; */
+    /* line-height: 2rem; */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.btn-prev-mrg {
+    margin-left: 50%;
+    margin-top: 1.5rem;
+}
